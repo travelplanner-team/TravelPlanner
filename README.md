@@ -10,7 +10,7 @@ in Data Structures, Object-Oriented Programming, and problem-solving.
 
 ---
 
-## 🚀 Project Motivation
+## Project Motivation
 
 Planning a trip involves choosing the right places, minimizing travel
 time between locations, and adapting the plan to different traveler
@@ -22,7 +22,7 @@ travel planning — how data is modeled and optimized.
 
 ---
 
-## 🧠 Key Concepts Used
+##  Key Concepts Used
 
 - Object-Oriented Design in C++
 - Graph Representation of city locations
@@ -32,7 +32,7 @@ travel planning — how data is modeled and optimized.
 
 ---
 
-## 🧍 Traveler Personas
+##  Traveler Personas
 
 The system classifies users into four core traveler types:
 
@@ -46,7 +46,7 @@ dynamic filtering and itinerary customization.
 
 ---
 
-## 🏙️ Cities Covered
+##  Cities Covered
 
 The project currently models four diverse Indian cities:
 
@@ -60,7 +60,7 @@ Each city contains a carefully curated set of tourist locations
 
 ---
 
-## 🏗️ System Design Overview
+##  System Design Overview
 
 ### Place Modeling
 Each tourist location is represented using a `Place` class containing:
@@ -79,7 +79,7 @@ This design enables accurate distance calculation and personalization.
 
 ---
 
-## ⚙️ Planned Algorithmic Features
+##  Planned Algorithmic Features
 
 - **Dijkstra’s Algorithm**
   - To compute shortest travel paths between selected places
@@ -93,7 +93,7 @@ This design enables accurate distance calculation and personalization.
 
 ---
 
-## 🧪 Current Status
+##  Current Status
 
 ✔ Traveler personas defined  
 ✔ Place class implemented with geographic data  
@@ -104,7 +104,7 @@ This design enables accurate distance calculation and personalization.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** C++
 - **Concepts:** STL, OOP, Graph Algorithms
@@ -112,7 +112,7 @@ This design enables accurate distance calculation and personalization.
 
 ---
 
-## 📌 Why This Project?
+##  Why This Project?
 
 This project is intentionally designed to:
 - Demonstrate **strong DSA foundations**
@@ -122,7 +122,7 @@ This project is intentionally designed to:
 
 ---
 
-## 🔮 Future Extensions
+##  Future Extensions
 
 - City-level graph visualization
 - Web interface using a backend wrapper
@@ -131,9 +131,8 @@ This project is intentionally designed to:
 
 ---
 
-## 👩‍💻 Author
-
-Nayessha Marya
+##  Author
 Simran Pundir
+Nayessha Marya
 
 
