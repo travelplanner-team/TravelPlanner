@@ -124,17 +124,6 @@ This design enables accurate distance calculation and personalization.
 
 ---
 
-##  Current Status
-
-✔ Traveler personas defined  
-✔ Place class implemented with geographic data  
-✔ City-wise curated datasets prepared  
-⬜ Distance calculation module  
-⬜ Graph construction  
-⬜ Itinerary generation engine  
-
----
-
 ##  Tech Stack
 
 - **Language:** C++
