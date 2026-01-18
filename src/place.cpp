@@ -29,3 +29,11 @@ bool Place::isSuitableFor(TravelerType type) const {
     }
     return false;
 }
+double Place::getLatitude() const {
+    return latitude;
+}
+
+double Place::getLongitude() const {
+    return longitude;
+}
+
