@@ -33,9 +33,12 @@ public:
         int visitTimeHours,
         int costLevel,
         std::vector<TravelerType> allowedTypes
+
     );
 
     bool isSuitableFor(TravelerType type) const;
+    double getLatitude() const;
+    double getLongitude() const;
 };
 
 #endif
