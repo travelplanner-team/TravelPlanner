@@ -3,6 +3,9 @@
 #include "data_loader.h"
 #include "city.h"
 #include "traveler_type.h"
+#include "graph_builder.h"
+#include "itinerary.h"
+
 
 using namespace std;
 
@@ -50,11 +53,30 @@ int main() {
 
     City city = getCityByChoice(cityChoice);
 
-    cout << "\nGenerating itinerary...\n";
-    cout << "City: " << city.getName() << endl;
-    cout << "Days: " << days << endl;
+    Graph graph = buildGraphForCity(city);
 
-    cout << "\n[Input layer working successfully]\n";
+    Itinerary itinerary;
+itinerary.generate(
+    city,
+    travelerType,
+    days,
+    graph,
+    0   
+);
+const auto& itineraryDays = itinerary.getDays();
+const auto& places = city.getAllPlaces();
+
+cout << "\n📍 City: " << city.getName() << endl;
+cout << "🧍 Traveler Type selected\n";
+cout << "🗓️  Days: " << days << "\n";
+
+for (int d = 0; d < itineraryDays.size(); d++) {
+    cout << "\nDay " << d + 1 << ":\n";
+    for (int idx : itineraryDays[d].placeIndices) {
+        cout << " - " << places[idx].getName() << endl;
+    }
+}
+
 
     return 0;
 }
