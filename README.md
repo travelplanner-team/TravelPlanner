@@ -131,6 +131,22 @@ This design enables accurate distance calculation and personalization.
 - **Version Control:** GitHub
 
 ---
+## How to Run
+
+This project is a pure C++ application and does not require any external
+libraries.
+
+### Prerequisites
+- A C++ compiler with C++17 support (e.g. g++)
+
+### Steps
+
+
+git clone https://github.com/simranpundirr/TRAVELPLANNER.git
+cd TRAVELPLANNER
+g++ -std=c++17 src/*.cpp -o travel_planner
+./travel_planner
+
 
 ##  Why This Project?
 
