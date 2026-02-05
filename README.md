@@ -8,7 +8,7 @@ The project focuses on **algorithmic optimization and system design**
 rather than UI, making it suitable for demonstrating strong foundations
 in Data Structures, Object-Oriented Programming, and problem-solving.
 
----
+--
 
 ## Project Motivation
 
